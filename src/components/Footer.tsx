@@ -1,5 +1,6 @@
 import React from 'react';
-import { Zap, Facebook, Twitter, Instagram, Linkedin, Mail } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Linkedin, Mail } from 'lucide-react';
+import Logo from "../logo.png"
 
 const Footer = () => {
   return (
@@ -9,10 +10,10 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-2 mb-6">
-              <div className="p-2 bg-gradient-to-r from-green-500 to-teal-500 rounded-lg">
-                <Zap className="h-6 w-6 text-white" />
+              <div className=" bg-gradient-to-r from-green-500 to-teal-500 rounded-lg">
+                 <img src={ Logo } alt="Logo_EVGO" className='size-10' />
               </div>
-              <span className="text-xl font-bold">EVMarket</span>
+              <span className="text-xl font-bold">EVGO</span>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Revolutionizing the second-hand electric vehicle marketplace with 
@@ -81,7 +82,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 mb-4 md:mb-0">
-              © 2025 EVMarket. All rights reserved.
+              © 2025 EVGO. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm text-gray-400">
               <a href="#" className="hover:text-white transition-colors duration-200">Privacy Policy</a>
